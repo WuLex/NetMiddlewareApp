@@ -1,3 +1,3 @@
 # FirstNetCoreApp
 
-net Core + Identity server 示例
+net Core 示例
