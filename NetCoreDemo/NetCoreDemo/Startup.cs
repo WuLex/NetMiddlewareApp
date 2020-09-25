@@ -49,6 +49,7 @@ namespace NetCoreDemo
             }
 
             app.UseHttpsRedirection();
+            app.UseMiddleware404(); /*使用中间件*/
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
